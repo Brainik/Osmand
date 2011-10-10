@@ -1,6 +1,43 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources>
 
+<string name="layer_poi_label">Popisky POI</string>
+<string name="auto_follow_route_navigation_descr">Enable auto follow position only in navigation mode.</string>
+<string name="auto_follow_route_navigation">Automatické sledování</string>
+<string name="auto_follow_location_enabled">Auto follow settings are enabled.</string>
+<string name="animate_route_off">Vypnout animování</string>
+<string name="animate_route">Zapnout animování</string>
+
+<string name="tip_recent_changes_0_6_8_t">Změny ve verzi 0.6.8 :
+\n\t- Kompletní redesign hledání (POI, adresy)! Vyhledávání adres nyní mnohem rychlejší. Možnost jednoho hledání podle mnoha různých kritérií.
+\n\t- Implementováno vyhledávání velkých oblastí POI podle jména (země)
+\n\t- Odstraněno blikání mapové obrazovky na tabletech (Problém č.641)
+\n\t- Automatické sledování trasy (Problém č.356)
+\n\t- GPX navigace přesunuta do \'Navigace\' a \'Uložit pokyny\' přesunuto do \'O cestě\'
+\n\t- POI data jsou nyní uložena v souborech .obf (stahněte index z 1.10.2011 nebo novější)
+\n\t- Voice prompt fixes (about GPS location and about first omitting command)
+\n\t- Drobná vylepšení
+</string>
+<string name="file_can_not_be_renamed">Nelze přejmenovat soubor.</string>
+<string name="file_with_name_already_exists">Soubor tohoto jména již existuje.</string>
+<string name="gpx_navigation">GPX route</string>
+<string name="poi_query_by_name_matches_categories">Byly nalezeny POI kategorie shodné se zadaným dotazem :</string>
+<string name="data_to_search_poi_not_available">Lokální data pro hledání POI nenalezena.</string>
+<string name="poi_filter_by_name">Hledat podle jména</string>
+<string name="old_poi_file_should_be_deleted">Soubor \'%1$s\' s POI daty se již nepoužívá a může být smazán.</string>
+<string name="update_poi_file_not_found">Lokální soubor pro udržování změn v POI nebyl nalezen a nemohl být vytvořen.</string>
+<string name="update_poi_does_not_change_indexes">Změny POI uvnitř aplikace neovlivní stažené mapové soubory but collects all changes in local file.</string>
+
+<string name="button_upgrade_osmandplus">Upgradovat na Osmand+</string>
+<string name="map_version_changed_info">Mapové soubory na serveru jsou nekompatibilní s vaší verzí aplikace. Abyste je mohli používat, prosím upgradujte aplikaci na novější verzi.</string>
+
+<string name="local_index_mi_rename">Přejmenovat</string>
+<string name="show_gpx_route">Zobrazit na mapě</string>
+<string name="poi_filter_nominatim">Online Nominatim</string>
+<string name="auto_follow_route_never">Nikdy</string>
+<string name="choose_auto_follow_route">Vyberte nastavení automatického sledování</string>
+<string name="choose_auto_follow_route_descr">Zvolte interval pro pokračování sledování mapy to continue map following at the location</string>
+
 <string name="search_select_point">Vybrat</string>
 <string name="local_index_description">Stahnout nová, zálohovat nebo smazat existující data. \nOffline data na zařízení (%1$s dostupné)</string>
 <string name="search_position_current_location_search">Hledané polohy...</string>
